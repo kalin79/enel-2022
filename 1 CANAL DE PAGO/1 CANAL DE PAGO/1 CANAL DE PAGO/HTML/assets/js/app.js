@@ -17,6 +17,16 @@ $(function(){
     
     $( "form" ).submit(function( event ) {
         event.preventDefault();
+        var checkbox = document.querySelector('input[name="atencion"]:checked').value;
+        var puntaje = $("#puntaje").val();
+        var pregunta3 = $("#motivos").val();
+        var pregunta4 = $("#motivos2").val();
+       
+        console.log(checkbox);
+        console.log(puntaje);
+        console.log(pregunta3);
+        console.log(pregunta4);
+        // return false;
         top.location.href = 'gracias.html';
     });
 });
