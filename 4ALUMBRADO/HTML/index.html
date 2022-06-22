@@ -68,9 +68,9 @@
                                    <div class="boxDescription separate">
                                         <div class="vineta v1">
                                              <p>
-                                                  Indique su nivel de satisfacción sobre lo siguiente: ¿El asesor le explicó con claridad las posibles soluciones y/o respuestas al caso presentado?
+                                                  Indique su nivel de satisfacción respecto a la normalización del alumbrado público en su zona.
                                              </p>
-                                             <p class="bold mt-2">
+                                             <p class="bold mt-3">
                                                   Utiliza la siguiente escala de 1 al 5, donde  1 es muy  insatisfecho y 5 muy satisfecho.
                                              </p>
                                         </div>
@@ -115,69 +115,39 @@
                                    <div class="boxDescription mb-4">
                                         <div class="vineta v2">
                                              <p>
-                                                  ¿Cuál de las siguiente causas cree usted que motivó la consulta o disconformidad sobre su facturación?
+                                                  Después de la atención en el alumbrado público ¿Dejaron la zona de trabajo en orden? Elija una de las siguientes opciones:
                                              </p>
                                         </div>
                                         <div class="d-flex justify-content-start align-items-center mt-2">
-                                             <div class="boxCheckbox">
-                                                  <input class="seleccionMultiple" type="checkbox" name="atencion" id="atencion-1" value="1">
-                                                  <label for="atencion-1"></label>
+                                             <div class="radioStandar">
+                                                  <input type="radio" name="atencion" value="Si">
                                              </div>
-                                             <p>No toman la lectura a mi medidor</p>
+                                             <p>Sí dejaron todo en orden.</p>
                                         </div>
                                         <div class="d-flex justify-content-start align-items-center mt-2">
-                                             <div class="boxCheckbox">
-                                                  <input class="seleccionMultiple" type="checkbox" name="atencion" id="atencion-2" value="2">
-                                                  <label for="atencion-2"></label>
+                                             <div class="radioStandar">
+                                                  <input type="radio" name="atencion" value="dentro 48 horas">
                                              </div>
-                                             <p>El medidor se encuentra malogrado o defectuoso</p>
+                                             <p>Dejaron desmonte y lo recogieron dentro de las siguientes 48 horas.</p>
                                         </div>
                                         <div class="d-flex justify-content-start align-items-center mt-2">
-                                             <div class="boxCheckbox">
-                                                  <input class="seleccionMultiple" type="checkbox" name="atencion" id="atencion-3" value="3">
-                                                  <label for="atencion-3"></label>
+                                             <div class="radioStandar">
+                                                  <input type="radio" name="atencion" value="despues 48 horas">
                                              </div>
-                                             <p>Me cobran un monto que no refleja mi consumo real</p>
+                                             <p>Dejaron desmonte y lo recogieron después de 48 horas.</p>
                                         </div>
-
                                         <div class="d-flex justify-content-start align-items-center mt-2">
-                                             <div class="boxCheckbox">
-                                                  <input class="seleccionMultiple" type="checkbox" name="atencion" id="atencion-4" value="4">
-                                                  <label for="atencion-4"></label>
+                                             <div class="radioStandar">
+                                                  <input type="radio" name="atencion" value="mas de 48 horas">
                                              </div>
-                                             <p>No me llegan mis recibos</p>
+                                             <p>Pasaron más de 48 horas y aún no han recogido el desmonte.</p>
                                         </div>
-
-                                        <div class="d-flex justify-content-start align-items-center mt-2">
-                                             <div class="boxCheckbox">
-                                                  <input class="seleccionMultiple" type="checkbox" name="atencion" id="atencion-5" value="5">
-                                                  <label for="atencion-5"></label>
-                                             </div>
-                                             <p>No entiendo el recibo</p>
-                                        </div>
-                                        <div class="mt-2">
-                                             <div class="d-flex justify-content-start align-items-center">
-                                                  <div class="boxCheckbox">
-                                                       <input class="seleccionMultiple" type="checkbox" name="atencion" id="atencion-6" value="6">
-                                                       <label for="atencion-6"></label>
-                                                  </div>
-                                                  <p>Otro, indique motivo</p>
-                                                  
-                                             </div>
-
-                                             <div class="boxTextArea mt-3">
-                                                  <textarea name="otro" id="otro" cols="30" rows="10" placeholder="Escribe aquí..."></textarea>
-                                             </div>
-                                        </div>
-                                   
                                    </div>
 
                                    <div class="boxDescription mb-4">
-                                        <div class="vineta v3">
-                                             <p>
-                                                  ¿Qué podemos hacer en Enel para mejorar tu expectativa o experiencia respecto al proceso de facturación?
-                                             </p>
-                                        </div>
+                                        <p>
+                                             3. ¿Qué podemos hacer en Enel para mejorar tu expectativa o experiencia respecto al servicio de atención de alumbrado público?
+                                        </p>
                                         <div class="boxTextArea mt-3">
                                              <textarea name="motivos" id="motivos" cols="30" rows="10" placeholder="Escribe aquí..."></textarea>
                                         </div>
@@ -185,7 +155,7 @@
                                    
                                    <div class="d-flex justify-content-center align-items-center">
                                         <div class="boxButton large">
-                                             <button type="submit" class="txtUppercase">Enviar Encuersta</button>
+                                             <button type="submit" class="txtUppercase">Enviar encuesta</button>
                                         </div>
                                    </div>
                                    <input type="hidden" name="puntaje" id="puntaje" value="0" />

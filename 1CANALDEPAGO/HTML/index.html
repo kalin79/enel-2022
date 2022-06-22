@@ -39,12 +39,18 @@
 <body>
      <div class="pageEncuesta">
           <div class="boxContainer">
-               <div class="contentBanner relative">
-                    <div class="boxLogoFlotante">
-                         <a href="/">
-                              <img src="assets/image/logo.png" alt="Enel">
-                         </a>
+               <header>
+                    <div class="">
+                         <div class="d-flex justify-content-end align-items-center">
+                              <div class="boxLogo">
+                                   <a href="/">
+                                        <img src="assets/image/logo.png" alt="Enel">
+                                   </a>
+                              </div>
+                         </div>
                     </div>
+               </header>
+               <div class="contentBanner">
                     <div class="fullImages">
                          <img src="assets/image/banner.jpg" alt="">
                     </div>
@@ -62,9 +68,9 @@
                                    <div class="boxDescription separate">
                                         <div class="vineta v1">
                                              <p>
-                                                  ¿Qué tan satisfecho estás con la entrega de tu recibo digital?
+                                                  Indique su nivel de satisfacción respecto a su experiencia     con el canal donde realizó el pago de su último recibo de luz.
                                              </p>
-                                             <p class="bold mt-2">
+                                             <p class="bold mt-4">
                                                   Utiliza la siguiente escala de 1 al 5, donde  1 es muy  insatisfecho y 5 muy satisfecho.
                                              </p>
                                         </div>
@@ -109,7 +115,7 @@
                                    <div class="boxDescription mb-4">
                                         <div class="vineta v2">
                                              <p>
-                                                  Favor indicar si en los últimos 3 meses, recibiste tu recibo digital en tu correo electrónico, es decir, si llegó o no tu recibo:
+                                                  Favor indique si volvería a utilizar este canal de pago:
                                              </p>
                                         </div>
                                         <div class="d-flex justify-content-start align-items-center mt-2">
@@ -129,17 +135,28 @@
                                    <div class="boxDescription mb-4">
                                         <div class="vineta v3">
                                              <p>
-                                                  ¿Qué podemos hacer en Enel para mejorar tu expectativa o experiencia respecto al contenido del recibo digital?
+                                                  Indíquenos los motivos de por qué si o no volvería a utilizar este canal de pago:
                                              </p>
                                         </div>
                                         <div class="boxTextArea mt-3">
                                              <textarea name="motivos" id="motivos" cols="30" rows="10" placeholder="Escribe aquí..."></textarea>
                                         </div>
                                    </div>
+
+                                   <div class="boxDescription mb-4">
+                                        <div class="vineta v4">
+                                             <p>
+                                                  ¿Qué podemos hacer en Enel para mejorar tu experiencia respecto al proceso de pago?
+                                             </p>
+                                        </div>
+                                        <div class="boxTextArea mt-3">
+                                             <textarea name="motivos2" id="motivos2" cols="30" rows="10" placeholder="Escribe aquí..."></textarea>
+                                        </div>
+                                   </div>
                                    
                                    <div class="d-flex justify-content-center align-items-center">
                                         <div class="boxButton large">
-                                             <button type="submit" class="txtUppercase">Enviar Encuersta</button>
+                                             <button type="submit" class="txtUppercase">Enviar encuesta</button>
                                         </div>
                                    </div>
                                    <input type="hidden" name="puntaje" id="puntaje" value="0" />
