@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Roobert ENEL';
+    src: url('RoobertENEL-Bold.eot');
+    src: url('RoobertENEL-Bold.eot?#iefix') format('embedded-opentype'),
+        url('RoobertENEL-Bold.woff2') format('woff2'),
+        url('RoobertENEL-Bold.woff') format('woff'),
+        url('RoobertENEL-Bold.ttf') format('truetype'),
+        url('RoobertENEL-Bold.svg#RoobertENEL-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roobert ENEL';
+    src: url('RoobertENEL-Regular.eot');
+    src: url('RoobertENEL-Regular.eot?#iefix') format('embedded-opentype'),
+        url('RoobertENEL-Regular.woff2') format('woff2'),
+        url('RoobertENEL-Regular.woff') format('woff'),
+        url('RoobertENEL-Regular.ttf') format('truetype'),
+        url('RoobertENEL-Regular.svg#RoobertENEL-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roobert ENEL';
+    src: url('RoobertENEL-Light.eot');
+    src: url('RoobertENEL-Light.eot?#iefix') format('embedded-opentype'),
+        url('RoobertENEL-Light.woff2') format('woff2'),
+        url('RoobertENEL-Light.woff') format('woff'),
+        url('RoobertENEL-Light.ttf') format('truetype'),
+        url('RoobertENEL-Light.svg#RoobertENEL-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roobert ENEL';
+    src: url('RoobertENEL-Black.eot');
+    src: url('RoobertENEL-Black.eot?#iefix') format('embedded-opentype'),
+        url('RoobertENEL-Black.woff2') format('woff2'),
+        url('RoobertENEL-Black.woff') format('woff'),
+        url('RoobertENEL-Black.ttf') format('truetype'),
+        url('RoobertENEL-Black.svg#RoobertENEL-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-Bold.eot');
+    src: url('UniversLTStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('UniversLTStd-Bold.woff2') format('woff2'),
+        url('UniversLTStd-Bold.woff') format('woff'),
+        url('UniversLTStd-Bold.ttf') format('truetype'),
+        url('UniversLTStd-Bold.svg#UniversLTStd-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd.eot');
+    src: url('UniversLTStd.eot?#iefix') format('embedded-opentype'),
+        url('UniversLTStd.woff2') format('woff2'),
+        url('UniversLTStd.woff') format('woff'),
+        url('UniversLTStd.ttf') format('truetype'),
+        url('UniversLTStd.svg#UniversLTStd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

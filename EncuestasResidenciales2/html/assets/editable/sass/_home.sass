@@ -1,0 +1,60 @@
+.contentHome
+     &.notMargin
+          .boxContent
+               padding-bottom: 0 !important
+     .boxContent
+          padding: 5rem 1rem 3rem
+          @media screen and (min-width: 992px)
+               padding: 5rem 6rem 3rem
+          &.large
+               padding: 5rem 1rem 3rem
+               @media screen and (min-width: 992px)
+                    padding: 5rem 2rem 3rem
+          .boxDescription
+               &.separate
+                    margin-top: 3rem
+          .boxCirculoEncuesta
+               border: 0px solid red
+               padding: 0 .5rem
+               @media screen and (min-width: 992px)
+                    padding: 0 2rem
+
+               // margin-top: 2.5rem
+               a
+                    border: 0px solid green
+                    h3
+                         @include fontFree(#000000, 14px,14px,12px,12px, $fontDescriptionMedium)
+                         text-align: center
+                         line-height: 1.5em
+                         margin-top: .5rem
+                    .boxCircle
+                         width: 55px
+                         height: 55px
+                         border: 2px solid #E61400
+                         border-radius: 50%
+                         transition: .5s ease-in background
+                         margin-bottom: .5rem
+                         @media screen and (min-width: 768px)
+                              width: 45px
+                              height: 45px
+                         
+                         &.active,
+                         &:hover
+                              background: #E61400
+                              &.color2
+                                   background: #e2c413
+                              &.color3
+                                   background: #5db45b
+                              &.color4
+                                   background: #ff590e
+                              p
+                                   color: white
+                         &.color2
+                              border-color: #e2c413
+                         &.color3
+                              border-color: #5db45b
+                         &.color4
+                              border-color: #ff590e
+                         p
+                              
+                              @include fontFree(#000000, 22px,22px,22px,22px, $fontDescriptionMedium)
