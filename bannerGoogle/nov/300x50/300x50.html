@@ -177,31 +177,36 @@
         animation-timing-function: linear;
         --gwd-visibility-range: 7600, ;
       }
-      10% {
+      11.1111% {
+        transform: translate3d(0px, 0px, 0px);
+        opacity: 1;
+        animation-timing-function: linear;
+      }
+      88.8889% {
         transform: translate3d(0px, 0px, 0px);
         opacity: 1;
         animation-timing-function: linear;
       }
       100% {
         transform: translate3d(0px, 0px, 0px);
-        opacity: 1;
+        opacity: 0;
         animation-timing-function: linear;
       }
     }
     #page1.gwd-play-animation .gwd-gen-1q7igwdanimation {
-      animation: 5s linear 7.6s 1 normal forwards running gwd-gen-1q7igwdanimation_gwd-keyframes;
+      animation: 4.5s linear 7.6s 1 normal forwards running gwd-gen-1q7igwdanimation_gwd-keyframes;
     }
     .gwd-imagebutton-1bev {
       position: absolute;
+      width: 220px;
+      left: 41px;
+      height: 40px;
+      top: 5px;
       visibility: inherit;
-      width: 130px;
-      height: 30px;
-      top: 16px;
-      left: 87px;
     }
     @keyframes gwd-gen-qtaagwdanimation_gwd-keyframes {
       0% {
-        --gwd-visibility-range: 7600, ;
+        --gwd-visibility-range: 12100, ;
       }
     }
     #page1.gwd-play-animation .gwd-gen-qtaagwdanimation {
@@ -233,6 +238,29 @@
     }
     #page1.gwd-play-animation .gwd-gen-98yggwdanimation {
       animation: 5.5s linear 1.6s 1 normal forwards running gwd-gen-98yggwdanimation_gwd-keyframes;
+    }
+    .gwd-image-zivb {
+      position: absolute;
+      width: 300px;
+      height: 50px;
+      left: 0px;
+      top: 0px;
+      visibility: inherit;
+      opacity: 0;
+    }
+    @keyframes gwd-gen-1qgtgwdanimation_gwd-keyframes {
+      0% {
+        opacity: 0;
+        animation-timing-function: linear;
+        --gwd-visibility-range: 12100, ;
+      }
+      100% {
+        opacity: 1;
+        animation-timing-function: linear;
+      }
+    }
+    #page1.gwd-play-animation .gwd-gen-1qgtgwdanimation {
+      animation: 0.5s linear 12.1s 1 normal forwards running gwd-gen-1qgtgwdanimation_gwd-keyframes;
     }
   </style>
   <script data-source="googbase_min.js" data-version="4" data-exports-type="googbase" src="googbase_min.js"></script>
@@ -277,6 +305,10 @@
       // GWD Predefined Function
       gwd.actions.timeline.gotoAndPlayNTimes('page1', 'animationStart', 100, 'counter');
     };
+    gwd.auto_Page1AnimationEnd6 = function(event) {
+      // GWD Predefined Function
+      gwd.actions.timeline.gotoAndPlayNTimes('page1', 'animationStart', 100, 'counter');
+    };
   </script>
   <script type="text/javascript" gwd-events="registration">
     // Código de soporte para la administración de eventos en Google Web Designer
@@ -290,6 +322,7 @@
       gwd.actions.events.addHandler('page1', 'animationEnd', gwd.auto_Page1AnimationEnd3, false);
       gwd.actions.events.addHandler('page1', 'animationEnd', gwd.auto_Page1AnimationEnd4, false);
       gwd.actions.events.addHandler('page1', 'animationEnd', gwd.auto_Page1AnimationEnd5, false);
+      gwd.actions.events.addHandler('page1', 'animationEnd', gwd.auto_Page1AnimationEnd6, false);
       gwd.actions.timeline.captureAnimationEnd(document.body);
     };
     gwd.actions.events.deregisterEventHandlers = function(event) {
@@ -301,6 +334,7 @@
       gwd.actions.events.removeHandler('page1', 'animationEnd', gwd.auto_Page1AnimationEnd3, false);
       gwd.actions.events.removeHandler('page1', 'animationEnd', gwd.auto_Page1AnimationEnd4, false);
       gwd.actions.events.removeHandler('page1', 'animationEnd', gwd.auto_Page1AnimationEnd5, false);
+      gwd.actions.events.removeHandler('page1', 'animationEnd', gwd.auto_Page1AnimationEnd6, false);
       gwd.actions.timeline.releaseAnimationEnd(document.body);
     };
     document.addEventListener("DOMContentLoaded", gwd.actions.events.registerEventHandlers);
@@ -318,9 +352,10 @@
           <gwd-image id="1_02" source="assets/1_02.png" scaling="stretch" class="gwd-image-1ago gwd-gen-1iypgwdanimation"></gwd-image>
           <gwd-image id="1_03" source="assets/1_03.png" scaling="stretch" class="gwd-image-125k gwd-gen-x6yqgwdanimation"></gwd-image>
           <gwd-image id="2" source="assets/1.png" scaling="stretch" class="gwd-image-19sc gwd-gen-1q7igwdanimation"></gwd-image>
+          <gwd-image id="3" source="assets/3.png" scaling="stretch" class="gwd-image-zivb gwd-gen-1qgtgwdanimation"></gwd-image>
           <gwd-imagebutton id="gwd-imagebutton_1" up-image="" over-image="" down-image="" scaling="cover" class="gwd-imagebutton-1bev gwd-gen-qtaagwdanimation"></gwd-imagebutton>
           <gwd-imagebutton id="gwd-imagebutton_2" up-image="" over-image="" down-image="" scaling="cover" class="gwd-imagebutton-1ox5 gwd-gen-98yggwdanimation"></gwd-imagebutton>
-          <div class="gwd-animation-event animationEnd-animation" data-event-name="animationEnd" data-event-time="12600"></div>
+          <div class="gwd-animation-event animationEnd-animation" data-event-name="animationEnd" data-event-time="15100"></div>
         </div>
       </gwd-page>
     </gwd-pagedeck>

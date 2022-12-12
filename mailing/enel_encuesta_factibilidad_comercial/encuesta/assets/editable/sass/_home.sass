@@ -5,7 +5,7 @@
      .boxContent
           padding: 3rem 1rem 3rem
           @media screen and (min-width: 992px)
-               padding: 3rem 6rem 3rem
+               padding: 3rem 0rem 3rem
           &.large
                padding: 5rem 1rem 3rem
                @media screen and (min-width: 992px)
@@ -33,6 +33,7 @@
                          width: 55px
                          height: 55px
                          border: 2px solid #c51a06
+                         background: #c51a06
                          border-radius: 50%
                          transition: .5s ease-in background
                          margin-bottom: .5rem
@@ -50,17 +51,32 @@
                               &.color4
                                    background: #7dbc61
                               &.color5
-                                   background: #FF5ADF
+                                   background: #c51a06
                               p
                                    color: white
+                         &.active
+                              position: relative
+                              &:before
+                                   content: ''
+                                   position: absolute
+                                   top: 1px
+                                   left: 1px
+                                   width: 40px
+                                   height: 40px
+                                   border: 1px solid black
+                                   border-radius: 50%
                          &.color2
                               border-color: #e4c937
+                              background: #e4c937
                          &.color3
                               border-color: #7dbc61
+                              background: #7dbc61
                          &.color4
                               border-color: #7dbc61
+                              background: #7dbc61
                          &.color5
-                              border-color: #FF5ADF
+                              border-color: #c51a06
+                              background: #c51a06
                          p
                               
-                              @include fontFree(#000000, 22px,22px,22px,22px, $fontDescriptionMedium)
+                              @include fontFree(white, 22px,22px,22px,22px, $fontDescriptionMedium)
